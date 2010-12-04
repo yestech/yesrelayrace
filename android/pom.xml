@@ -14,6 +14,38 @@
     <name>Relay Race Android</name>
     <url>http://relayrace.yestech.org</url>
     <packaging>apk</packaging>
+    <description>Android app for the Relay Race Application.</description>
+    <scm>
+        <connection>scm:git:git@github.com:yestech/yesrelayrace.git</connection>
+        <developerConnection>scm:git:git@github.com:yestech/yesrelayrace.git</developerConnection>
+        <url>git@github.com:yestech/yesrelayrace.git</url>
+    </scm>
+    <organization>
+        <name>YES Technology Association</name>
+        <url>http://yestech.org</url>
+    </organization>
+    <licenses>
+        <license>
+            <name>LGPLv3</name>
+            <url>http://opensource.org/licenses/lgpl-3.0.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <id>artie</id>
+            <name>Artie Copeland</name>
+            <email>http://mailhide.recaptcha.net/d?k=013dif-8KmF_OR5-Zs49rn9w==&amp;c=ZDwNN9ZwWomHpMAaLEW0Rt3HB4aATO6AM20eeZNxLS4=</email>
+            <roles>
+                <role>architect</role>
+                <role>developer</role>
+            </roles>
+        </developer>
+    </developers>
+    <ciManagement>
+        <url>http://ci.yestech.org</url>
+        <system>hudson</system>
+    </ciManagement>
     <properties>
         <scala.version>2.8.1</scala.version>
         <android.sdk.version>2.1.2</android.sdk.version>
@@ -192,19 +224,4 @@
             </plugin>
         </plugins>
     </build>
-    <repositories>
-        <repository>
-            <id>scala-tools.org</id>
-            <name>Scala-Tools Maven2 Repository</name>
-            <url>http://scala-tools.org/repo-releases</url>
-        </repository>
-    </repositories>
-
-    <pluginRepositories>
-        <pluginRepository>
-            <id>scala-tools.org</id>
-            <name>Scala-Tools Maven2 Repository</name>
-            <url>http://scala-tools.org/repo-releases</url>
-        </pluginRepository>
-    </pluginRepositories>
 </project>

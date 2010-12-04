@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>parent</artifactId>
+        <groupId>org.yestech.relayrace</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <groupId>org.yestech.relayrace</groupId>
+    <artifactId>core</artifactId>
+    <version>${relayrace.version}</version>
+    <name>Relay Core</name>
+    <url>relayrace.yestech.org</url>
+    <description>Core Api for the Relay Race Application.</description>
+    <scm>
+        <connection>scm:git:git@github.com:yestech/yesrelayrace.git</connection>
+        <developerConnection>scm:git:git@github.com:yestech/yesrelayrace.git</developerConnection>
+        <url>git@github.com:yestech/yesrelayrace.git</url>
+    </scm>
+    <organization>
+        <name>YES Technology Association</name>
+        <url>http://yestech.org</url>
+    </organization>
+    <licenses>
+        <license>
+            <name>LGPLv3</name>
+            <url>http://opensource.org/licenses/lgpl-3.0.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <id>artie</id>
+            <name>Artie Copeland</name>
+            <email>http://mailhide.recaptcha.net/d?k=013dif-8KmF_OR5-Zs49rn9w==&amp;c=ZDwNN9ZwWomHpMAaLEW0Rt3HB4aATO6AM20eeZNxLS4=</email>
+            <roles>
+                <role>architect</role>
+                <role>developer</role>
+            </roles>
+        </developer>
+    </developers>
+    <ciManagement>
+        <url>http://ci.yestech.org</url>
+        <system>hudson</system>
+    </ciManagement>
+    <dependencies>
+    </dependencies>
+</project>
